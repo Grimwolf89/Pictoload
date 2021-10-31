@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="SampleItem\Commands\CreateItem\" />
+    <Folder Include="SampleItem\Commands\DeleteItem\" />
+    <Folder Include="SampleItem\EventHandlers\" />
+    <Folder Include="SampleItem\Queries\" />
+  </ItemGroup>
+
+</Project>
