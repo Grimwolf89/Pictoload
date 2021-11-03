@@ -6,6 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Azure.Identity;
+using Azure.Security.KeyVault.Secrets;
+using Azure.Extensions.AspNetCore.Configuration.Secrets;
 
 namespace Pictoload
 {
@@ -18,6 +21,23 @@ namespace Pictoload
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
+                .ConfigureAppConfiguration((context, config) =>
+                {
+                    IConfigurationRoot builtConfiguration = config.Build();
+
+                    string kvURL = builtConfiguration["KeyVaultConfig:KVUrl"];
+                    string tenantId = builtConfiguration["KeyVaultConfig:TenantId"];
+                    string clientId = builtConfiguration["KeyVaultConfig:ClientId"];
+                    string clientSecret = builtConfiguration["KeyVaultConfig:ClientSecretId"];
+
+                    var credential = new ClientSecretCredential(tenantId, clientId, clientSecret);
+
+                    var client = new SecretClient(new Uri(kvURL), credential);
+                    config.AddAzureKeyVault(client, new AzureKeyVaultConfigurationOptions());
+
+                    /*var keyVaultEndpoint = new Uri(Environment.GetEnvironmentVariable("DefaultConnection"));
+                    config.AddAzureKeyVault(keyVaultEndpoint, new DefaultAzureCredential());*/
+                })
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

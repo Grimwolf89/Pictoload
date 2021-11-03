@@ -92,7 +92,6 @@ C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bi
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\Microsoft.CSharp.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.CommandLine.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
-C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Ini.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.Json.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
@@ -101,8 +100,6 @@ C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bi
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Composite.dll
-C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileProviders.Physical.dll
-C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
@@ -247,7 +244,6 @@ C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bi
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.CodePages.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\System.Text.Encoding.Extensions.dll
-C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\System.Text.Encodings.Web.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\System.Text.RegularExpressions.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\System.Threading.Channels.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\refs\System.Threading.dll
@@ -435,3 +431,21 @@ C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\ob
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\WebUI.csproj.CopyComplete
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Infrastructure.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Azure.Core.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Azure.Extensions.AspNetCore.Configuration.Secrets.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Azure.Identity.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Azure.Security.KeyVault.Secrets.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\System.Memory.Data.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.WebKey.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Microsoft.Azure.Services.AppAuthentication.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.AzureKeyVault.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.Azure.dll
