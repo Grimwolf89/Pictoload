@@ -17,3 +17,6 @@ C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructu
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.StaticWebAssets.xml
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.runtimeconfig.json
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.runtimeconfig.dev.json
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.genruntimeconfig.cache
