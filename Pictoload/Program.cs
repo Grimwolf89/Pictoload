@@ -35,6 +35,8 @@ namespace Pictoload
                     var client = new SecretClient(new Uri(kvURL), credential);
                     config.AddAzureKeyVault(client, new AzureKeyVaultConfigurationOptions());
 
+
+
                     /*var keyVaultEndpoint = new Uri(Environment.GetEnvironmentVariable("DefaultConnection"));
                     config.AddAzureKeyVault(keyVaultEndpoint, new DefaultAzureCredential());*/
                 })

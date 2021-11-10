@@ -8,5 +8,7 @@ namespace Domain.Entities
     public class TagPhoto
     {
         public int Id { get; set; }
+
+        public ICollection<Photo> Photos { get; set; }
     }
 }

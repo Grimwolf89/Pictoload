@@ -1,10 +1,23 @@
 ﻿@page
+
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
 }
-
+@*@inject MediatR.IMediator _mediator*@
 <div class="text-center">
     <h1 class="display-4">CMPG Project 2</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <ul>
+        @foreach (var a in Model.AlbumsFromDb)
+            {
+                <li>@a.AlbumTitle</li>
+            }
+
+    </ul>
+
+
 </div>
+
+

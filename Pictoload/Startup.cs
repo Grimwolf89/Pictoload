@@ -1,3 +1,7 @@
+using Application;
+using Application.Common.Interfaces;
+using Infrastructure.Persistence.Data;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -6,13 +10,15 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
 using Pictoload.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using WebUI.Areas.Identity.Data;
+using IApplicationDbContext = Application.Common.Interfaces.IApplicationDbContext;
 
 namespace Pictoload
 {
@@ -34,8 +40,10 @@ namespace Pictoload
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
             services.AddRazorPages();
-            
+            services.AddMediatR(typeof(ApplicationLibraryMediatREntrypoint).Assembly);
+            services.AddScoped<IApplicationDbContext, ApplicationDbContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -2222,6 +2222,9 @@
         }
       },
       "Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.20"
+        },
         "runtime": {
           "Domain.dll": {}
         },

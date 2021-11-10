@@ -17,4 +17,3 @@ C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Application\
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Application\bin\Debug\netcoreapp3.1\Application.runtimeconfig.json
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Application\bin\Debug\netcoreapp3.1\Application.runtimeconfig.dev.json
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Application\obj\Debug\netcoreapp3.1\Application.genruntimeconfig.cache
-C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Application\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete

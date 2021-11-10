@@ -33,8 +33,36 @@ using Pictoload.Data;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 6 "C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\Pages\_ViewImports.cshtml"
+using Domain.Entities;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\Pages\_ViewImports.cshtml"
+using Application.Album.Handlers;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 8 "C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\Pages\_ViewImports.cshtml"
+using Application.Album.Queries;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 9 "C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\Pages\_ViewImports.cshtml"
+using Application.Album.Commands;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1f02565c188bc0cf60de1bc120acef71a3608055", @"/Pages/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3446cd11c27857ca80e845b689cfe71746a61561", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ac11d8fec60ea0cb5455c253ab8c25f9f2930eed", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Error : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         #pragma warning disable 1998
