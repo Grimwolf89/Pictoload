@@ -12,5 +12,8 @@ namespace Domain.Entities
         public DateTime DateCaptured { get; set; }
         public string CapturedBy { get; set; }
         public string ImagePath { get; set; }
+        public ICollection<TagPhoto> TagPhoto { get; set; }
+
+        /* public ICollection<Album> Albums { get; set; }*/
     }
 }

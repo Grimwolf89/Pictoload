@@ -8,17 +8,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Persistence\Data\Migrations\20211115112817_Initial.cs" />
+    <Compile Remove="Persistence\Data\Migrations\20211115112817_Initial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Application\Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Files\" />
     <Folder Include="Identity\" />
+    <Folder Include="Persistence\Data\Migrations\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.21" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.21" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.21">

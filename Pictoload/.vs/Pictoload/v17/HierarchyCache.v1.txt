@@ -1,0 +1,745 @@
+﻿++Solution 'Pictoload' ‎(4 of 4 projects)
+i:{00000000-0000-0000-0000-000000000000}:Pictoload.sln
+++tests
+i:{00000000-0000-0000-0000-000000000000}:tests
+++src
+i:{00000000-0000-0000-0000-000000000000}:src
+++Domain
+i:{8746edd0-9047-4f3a-b579-bb3e62d9d65d}:Domain
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\domain\bin\debug\netcoreapp3.1\domain.dll
+++Connected Services 
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:>3784
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:>3785
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:>3787
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:>3786
+++Dependencies
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:>3781
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:>3783
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:>3780
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:>3782
+++Properties
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\domain\properties\
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\properties\
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\properties\
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\properties\
+++Common
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\domain\common\
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\common\
+++Entities
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\domain\entities\
+++Album.cs
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\domain\entities\album.cs
+++Photo.cs
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\domain\entities\photo.cs
+++Share.cs
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\domain\entities\share.cs
+++Tag.cs
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\domain\entities\tag.cs
+++TagPhoto.cs
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\domain\entities\tagphoto.cs
+++User.cs
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\domain\entities\user.cs
+++Enums
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\domain\enums\
+++Events
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\domain\events\
+++Exceptions
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\domain\exceptions\
+++ValueObjects
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\domain\valueobjects\
+++No service dependencies discovered
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:>3789
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:>3791
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:>3788
+++Analyzers
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:analyzers
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:analyzers
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:analyzers
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:analyzers
+++Frameworks
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:frameworks
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:frameworks
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:frameworks
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:frameworks
+++Packages
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:packages
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:packages
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:packages
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:packages
+++launchSettings.json
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\domain\properties\launchsettings.json
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\properties\launchsettings.json
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\properties\launchsettings.json
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\properties\launchsettings.json
+++Interfaces
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\domain\common\interfaces\
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\common\interfaces\
+++Microsoft.AspNetCore.Analyzers
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\users\grimwolf\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.19\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\users\grimwolf\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.21\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\users\grimwolf\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.20\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\users\grimwolf\.nuget\packages\microsoft.entityframeworkcore.analyzers\3.1.21\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.AspNetCore.App
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\domain\microsoft.aspnetcore.app
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\microsoft.aspnetcore.app
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\microsoft.aspnetcore.app
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\domain\microsoft.netcore.app
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\microsoft.netcore.app
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\microsoft.netcore.app
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\microsoft.netcore.app
+++Microsoft.EntityFrameworkCore (3.1.19)
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:>3824
+++Microsoft.EntityFrameworkCore.Design (3.1.19)
+i:{1be650cb-fe4b-4abe-a528-c31453ffed80}:>3827
+++Infrastructure
+i:{8746edd0-9047-4f3a-b579-bb3e62d9d65d}:Infrastructure
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\bin\debug\netcoreapp3.1\infrastructure.dll
+++Files
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\files\
+++Identity
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\identity\
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\
+++Persistence
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\
+++Data
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\data\
+++Migrations
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\
+++00000000000000_CreateIdentitySchema.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\00000000000000_createidentityschema.cs
+++00000000000000_CreateIdentitySchema.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\00000000000000_createidentityschema.designer.cs
+++20211104033059_onlinedbset.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211104033059_onlinedbset.cs
+++20211107064122_DBSystem.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211107064122_dbsystem.cs
+++20211110080237_tableupdates.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211110080237_tableupdates.cs
+++20211110081142_testConstraints.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211110081142_testconstraints.cs
+++20211110082631_usersAdded.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211110082631_usersadded.cs
+++20211110091536_tested.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211110091536_tested.cs
+++20211110094845_testedx.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211110094845_testedx.cs
+++20211111013852_test11Nov.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211111013852_test11nov.cs
+++20211111073720_Thumbnailpath.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211111073720_thumbnailpath.cs
+++20211112085634_ModelEdits1.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211112085634_modeledits1.cs
+++20211113031847_photoUpdates.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113031847_photoupdates.cs
+++20211113032844_photoUpdates1.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113032844_photoupdates1.cs
+++20211113033807_photoUpdates2.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113033807_photoupdates2.cs
+++20211113042025_photoUpdates3.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113042025_photoupdates3.cs
+++20211113042230_photoUpdates4.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113042230_photoupdates4.cs
+++20211113110259_applicationUsersadded.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113110259_applicationusersadded.cs
+++20211113110856_applicationUsersadded1.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113110856_applicationusersadded1.cs
+++20211113112627_applicationUsersadded3.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113112627_applicationusersadded3.cs
+++20211113113150_applicationUsersadded4.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113113150_applicationusersadded4.cs
+++20211113121513_applicationUsersaddedtest1.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113121513_applicationusersaddedtest1.cs
+++20211114034436_editUserIdType.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211114034436_edituseridtype.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\applicationdbcontextmodelsnapshot.cs
+++ApplicationDbContext.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\applicationdbcontext.cs
+++Services
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\services\
+++DependencyInjection.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\dependencyinjection.cs
+++Projects
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:projects
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:projects
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:projects
+++20211104033059_onlinedbset.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211104033059_onlinedbset.designer.cs
+++20211107064122_DBSystem.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211107064122_dbsystem.designer.cs
+++20211110080237_tableupdates.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211110080237_tableupdates.designer.cs
+++20211110081142_testConstraints.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211110081142_testconstraints.designer.cs
+++20211110082631_usersAdded.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211110082631_usersadded.designer.cs
+++20211110091536_tested.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211110091536_tested.designer.cs
+++20211110094845_testedx.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211110094845_testedx.designer.cs
+++20211111013852_test11Nov.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211111013852_test11nov.designer.cs
+++20211111073720_Thumbnailpath.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211111073720_thumbnailpath.designer.cs
+++20211112085634_ModelEdits1.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211112085634_modeledits1.designer.cs
+++20211113031847_photoUpdates.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113031847_photoupdates.designer.cs
+++20211113032844_photoUpdates1.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113032844_photoupdates1.designer.cs
+++20211113033807_photoUpdates2.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113033807_photoupdates2.designer.cs
+++20211113042025_photoUpdates3.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113042025_photoupdates3.designer.cs
+++20211113042230_photoUpdates4.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113042230_photoupdates4.designer.cs
+++20211113110259_applicationUsersadded.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113110259_applicationusersadded.designer.cs
+++20211113110856_applicationUsersadded1.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113110856_applicationusersadded1.designer.cs
+++20211113112627_applicationUsersadded3.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113112627_applicationusersadded3.designer.cs
+++20211113113150_applicationUsersadded4.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113113150_applicationusersadded4.designer.cs
+++20211113121513_applicationUsersaddedtest1.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211113121513_applicationusersaddedtest1.designer.cs
+++20211114034436_editUserIdType.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211114034436_edituseridtype.designer.cs
+++Microsoft.CodeAnalysis.Analyzers
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\users\grimwolf\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\users\grimwolf\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\users\grimwolf\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\users\grimwolf\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\users\grimwolf\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\users\grimwolf\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (3.1.21)
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:>3829
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:>3860
+++Microsoft.AspNetCore.Identity.UI (3.1.21)
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:>3834
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:>3865
+++Microsoft.EntityFrameworkCore.Design (3.1.21)
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:>3826
+++Microsoft.EntityFrameworkCore.SqlServer (3.1.21)
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:>3823
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:>3855
+++Microsoft.EntityFrameworkCore.Tools (3.1.21)
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:>3830
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:>3861
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (3.1.5)
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:>3832
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:>3837
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:>3863
+++Application
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\bin\debug\netcoreapp3.1\application.dll
+i:{8746edd0-9047-4f3a-b579-bb3e62d9d65d}:Application
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\bin\debug\netcoreapp3.1\application.dll
+++Album
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\album\
+++Commands
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\album\commands\
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\share\commands\
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\photo\commands\
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\sampleitem\commands\
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\tags\commands\
+++CreateAlbum
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\album\commands\createalbum\
+++CreateAlbumCommand.cs
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\album\commands\createalbum\createalbumcommand.cs
+++Handlers
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\album\handlers\
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\share\handlers\
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\photo\handlers\
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\tags\commands\handlers\
+++CreateAlbumHandler.cs
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\album\handlers\createalbumhandler.cs
+++GetAlbumByUserIdHandler.cs
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\album\handlers\getalbumbyuseridhandler.cs
+++GetAlbumListHandler.cs
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\album\handlers\getalbumlisthandler.cs
+++Queries
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\album\queries\
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\share\queries\
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\photo\queries\
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\sampleitem\queries\
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\tags\queries\
+++DataAccess
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\dataaccess\
+++Photo
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\photo\
+++SampleItem
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\sampleitem\
+++Share
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\share\
+++CreateShare
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\share\commands\createshare\
+++CreateShareCommand.cs
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\share\commands\createshare\createsharecommand.cs
+++DeleteItem
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\share\commands\deleteitem\
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\sampleitem\commands\deleteitem\
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\tags\commands\deleteitem\
+++CreateShareHandler.cs
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\share\handlers\createsharehandler.cs
+++Tags
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\tags\
+++ApplicationLibraryMediatREntrypoint.cs
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\applicationlibrarymediatrentrypoint.cs
+++New Text Document.txt
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\new text document.txt
+++GetAlbumByUserIdQuery.cs
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\album\queries\getalbumbyuseridquery.cs
+++GetAlbumListQuery.cs
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\album\queries\getalbumlistquery.cs
+++ApplicationDataAccess.cs
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\dataaccess\applicationdataaccess.cs
+++IDataAccess.cs
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\dataaccess\idataaccess.cs
+++EventHandlers
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\sampleitem\eventhandlers\
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\tags\eventhandlers\
+++MediatR (9.0.0)
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:>3835
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:>3859
+++Microsoft.EntityFrameworkCore.Design (3.1.20)
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:>3831
+++Microsoft.EntityFrameworkCore.SqlServer (3.1.20)
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:>3828
+++Microsoft.EntityFrameworkCore.Tools (3.1.20)
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:>3836
+++Microsoft.VisualStudio.Web.CodeGeneration.Core (3.1.5)
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:>3825
+++Microsoft.VisualStudio.Web.CodeGeneration.Utils (3.1.5)
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:>3833
+++IApplicationDbContext.cs
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\common\interfaces\iapplicationdbcontext.cs
+++CreatePhoto
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\photo\commands\createphoto\
+++CreatePhotoHandler.cs
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\photo\handlers\createphotohandler.cs
+++CreateItem
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\sampleitem\commands\createitem\
+++CreateTag
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\tags\commands\createtag\
+++CreatePhotoCommand.cs
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\photo\commands\createphoto\createphotocommand.cs
+++r.cs
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\photo\commands\createphoto\r.cs
+++CreateTagCommand.cs
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\tags\commands\createtag\createtagcommand.cs
+++CreateTagHandler.cs
+i:{0d392749-cda7-4de6-8cd6-5e40aca309d2}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\application\tags\commands\handlers\createtaghandler.cs
+++WebUI
+i:{8746edd0-9047-4f3a-b579-bb3e62d9d65d}:WebUI
+++wwwroot
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\
+++Areas
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\
+++ApplicationUser.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\data\applicationuser.cs
+++WebUIContext.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\data\webuicontext.cs
+++Pages
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\
+++Account
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\
+++Manage
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\
+++_Layout.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\_layout.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\shared\_layout.cshtml
+++_ManageNav.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\_managenav.cshtml
+++_StatusMessage.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\_statusmessage.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\_statusmessage.cshtml
+++_ViewImports.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\_viewimports.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\_viewimports.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\_viewimports.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\_viewimports.cshtml
+++ChangePassword.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\changepassword.cshtml
+++DeletePersonalData.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\deletepersonaldata.cshtml
+++Disable2fa.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\disable2fa.cshtml
+++DownloadPersonalData.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\downloadpersonaldata.cshtml
+++Email.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\email.cshtml
+++EnableAuthenticator.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\enableauthenticator.cshtml
+++ExternalLogins.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\externallogins.cshtml
+++GenerateRecoveryCodes.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\generaterecoverycodes.cshtml
+++Index.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\index.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\userdashboard\index.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\index.cshtml
+++ManageNavPages.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\managenavpages.cs
+++PersonalData.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\personaldata.cshtml
+++ResetAuthenticator.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\resetauthenticator.cshtml
+++SetPassword.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\setpassword.cshtml
+++ShowRecoveryCodes.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\showrecoverycodes.cshtml
+++TwoFactorAuthentication.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\twofactorauthentication.cshtml
+++AccessDenied.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\accessdenied.cshtml
+++ConfirmEmail.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\confirmemail.cshtml
+++ConfirmEmailChange.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\confirmemailchange.cshtml
+++ExternalLogin.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\externallogin.cshtml
+++ForgotPassword.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\forgotpassword.cshtml
+++ForgotPasswordConfirmation.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\forgotpasswordconfirmation.cshtml
+++Lockout.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\lockout.cshtml
+++Login.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\login.cshtml
+++LoginWith2fa.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\loginwith2fa.cshtml
+++LoginWithRecoveryCode.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\loginwithrecoverycode.cshtml
+++Logout.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\logout.cshtml
+++Register.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\register.cshtml
+++Register.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\register.cshtml.cs
+++RegisterConfirmation.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\registerconfirmation.cshtml
+++ResetPassword.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\resetpassword.cshtml
+++ResetPasswordConfirmation.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\resetpasswordconfirmation.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\_validationscriptspartial.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\shared\_validationscriptspartial.cshtml
+++_ViewStart.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\_viewstart.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\_viewstart.cshtml
+++Error.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\error.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\error.cshtml
+++IdentityHostingStartup.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\identityhostingstartup.cs
+++Shared
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\shared\
+++_LoginPartial.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\shared\_loginpartial.cshtml
+++Test
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\test\
+++Userdashboard
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\userdashboard\
+++ImageUpload.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\userdashboard\imageupload.cshtml
+++Index.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\userdashboard\index.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\index.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\index.cshtml.cs
+++Privacy.cshtml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\privacy.cshtml
+++appsettings.json
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\appsettings.json
+++Program.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\program.cs
+++ScaffoldingReadMe.txt
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\scaffoldingreadme.txt
+++Startup.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\startup.cs
+++Secrets.json (Local)
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:>3871
+++SQL Server Express LocalDB (Local) (ConnectionStrings:DefaultConnection)
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:>3870
+++SQL Server Express LocalDB (Local) (ConnectionStrings:WebUIContextConnection)
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:>3869
+++PublishProfiles
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\properties\publishprofiles\
+++ServiceDependencies
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\properties\servicedependencies\
+++serviceDependencies.json
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\properties\servicedependencies.json
+++css
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\css\
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\css\
+++Images
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\images\
+++js
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\js\
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\
+++Logo
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\logo\
+++favicon.ico
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\favicon.ico
+++ChangePassword.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\changepassword.cshtml.cs
+++DeletePersonalData.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\deletepersonaldata.cshtml.cs
+++Disable2fa.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\disable2fa.cshtml.cs
+++DownloadPersonalData.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\downloadpersonaldata.cshtml.cs
+++Email.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\email.cshtml.cs
+++EnableAuthenticator.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\enableauthenticator.cshtml.cs
+++ExternalLogins.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\externallogins.cshtml.cs
+++GenerateRecoveryCodes.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\generaterecoverycodes.cshtml.cs
+++PersonalData.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\personaldata.cshtml.cs
+++ResetAuthenticator.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\resetauthenticator.cshtml.cs
+++SetPassword.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\setpassword.cshtml.cs
+++ShowRecoveryCodes.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\showrecoverycodes.cshtml.cs
+++TwoFactorAuthentication.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\manage\twofactorauthentication.cshtml.cs
+++AccessDenied.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\accessdenied.cshtml.cs
+++ConfirmEmail.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\confirmemail.cshtml.cs
+++ConfirmEmailChange.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\confirmemailchange.cshtml.cs
+++ExternalLogin.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\externallogin.cshtml.cs
+++ForgotPassword.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\forgotpassword.cshtml.cs
+++ForgotPasswordConfirmation.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\forgotpasswordconfirmation.cshtml.cs
+++Lockout.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\lockout.cshtml.cs
+++Login.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\login.cshtml.cs
+++LoginWith2fa.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\loginwith2fa.cshtml.cs
+++LoginWithRecoveryCode.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\loginwithrecoverycode.cshtml.cs
+++Logout.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\logout.cshtml.cs
+++RegisterConfirmation.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\registerconfirmation.cshtml.cs
+++ResetPassword.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\resetpassword.cshtml.cs
+++ResetPasswordConfirmation.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\account\resetpasswordconfirmation.cshtml.cs
+++Error.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\areas\identity\pages\error.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\error.cshtml.cs
+++ImageUpload.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\userdashboard\imageupload.cshtml.cs
+++Privacy.cshtml.cs
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\pages\privacy.cshtml.cs
+++appsettings.Development.json
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\appsettings.development.json
+++Azure.Extensions.AspNetCore.Configuration.Secrets (1.2.1)
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:>3856
+++Azure.Identity (1.2.2)
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:>3858
+++Azure.Security.KeyVault.Secrets (4.2.0)
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:>3864
+++MediatR.Extensions.Microsoft.DependencyInjection (9.0.0)
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:>3862
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (3.1.21)
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:>3857
+++Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (3.1.21)
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:>3854
+++Microsoft.Extensions.Configuration.AzureKeyVault (3.1.20)
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:>3853
+++Pictoload - Zip Deploy.pubxml
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\properties\publishprofiles\pictoload - zip deploy.pubxml
+++Pictoload - Zip Deploy
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\properties\servicedependencies\pictoload - zip deploy\
+++serviceDependencies.local.json
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\properties\servicedependencies.local.json
+++serviceDependencies.Pictoload - Zip Deploy.json
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\properties\servicedependencies.pictoload - zip deploy.json
+++site.css
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\css\site.css
+++Slider
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\images\slider\
+++Temp
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\images\temp\
+++site.js
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\js\site.js
+++bootstrap
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\
+++jquery
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\jquery\
+++jquery-validation
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\jquery-validation-unobtrusive\
+++Logo.png
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\logo\logo.png
+++mssql1.arm.json
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\properties\servicedependencies\pictoload - zip deploy\mssql1.arm.json
+++profile.arm.json
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\properties\servicedependencies\pictoload - zip deploy\profile.arm.json
+++secrets1.arm.json
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\properties\servicedependencies\pictoload - zip deploy\secrets1.arm.json
+++slider-01.png
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\images\slider\slider-01.png
+++slider-02.png
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\images\slider\slider-02.png
+++slider-03.png
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\images\slider\slider-03.png
+++sliderImage-01.png
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\images\slider\sliderimage-01.png
+++sliderImage-02.png
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\images\slider\sliderimage-02.png
+++sliderImage-03.png
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\images\slider\sliderimage-03.png
+++dan2d0v5.5ij-1.png
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\images\temp\dan2d0v5.5ij-1.png
+++gdnoarhx.h02-1.png
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\images\temp\gdnoarhx.h02-1.png
+++h0znhamh.1rj-demo_id1.png
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\images\temp\h0znhamh.1rj-demo_id1.png
+++jffrpeqa.1vh-demo_id1.png
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\images\temp\jffrpeqa.1vh-demo_id1.png
+++lwoqz4nm.dxa-demo_id1.png
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\images\temp\lwoqz4nm.dxa-demo_id1.png
+++xceees50.tz2-demo_id1.png
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\images\temp\xceees50.tz2-demo_id1.png
+++dist
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\jquery\dist\
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\jquery\license.txt
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++jquery.js
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap.js
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap-grid.css.map
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-reboot.css.map
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap.bundle.js
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.js.map
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap-grid.min.css.map
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-reboot.min.css.map
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap.bundle.js.map
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.min.js.map
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.bundle.min.js.map
+i:{6c88b916-95d4-40fa-b3fc-be568ee2fcc0}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\pictoload\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++20211114035125_editUserIdType1.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211114035125_edituseridtype1.cs
+++20211114035125_editUserIdType1.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211114035125_edituseridtype1.designer.cs
+++20211114035444_editUserIdType2.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211114035444_edituseridtype2.cs
+++20211114035444_editUserIdType2.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211114035444_edituseridtype2.designer.cs
+++20211114040825_editUserIdType3.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211114040825_edituseridtype3.cs
+++20211114040825_editUserIdType3.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211114040825_edituseridtype3.designer.cs
+++20211114041404_editUserIdType4.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211114041404_edituseridtype4.cs
+++20211114041404_editUserIdType4.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211114041404_edituseridtype4.designer.cs
+++20211114041442_editUserIdType5.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211114041442_edituseridtype5.cs
+++20211114041442_editUserIdType5.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211114041442_edituseridtype5.designer.cs
+++20211114041733_editUserIdType6.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211114041733_edituseridtype6.cs
+++20211114041733_editUserIdType6.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211114041733_edituseridtype6.designer.cs
+++20211114042004_editUserIdType7.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211114042004_edituseridtype7.cs
+++20211114042004_editUserIdType7.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211114042004_edituseridtype7.designer.cs
+++20211114044426_Initial.cs
+++20211114044426_Initial.Designer.cs
+++20211114044845_Initial.cs
+++20211114044845_Initial.Designer.cs
+++20211114050217_Initial.cs
+++20211114050217_Initial.Designer.cs
+++20211114050558_Initial.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211114050558_initial.cs
+++20211114050558_Initial.Designer.cs
+i:{589353ac-a84e-45bb-a620-2d5cbbe1624e}:c:\studies 2021\semester2\itdevelopments_323\project_2\pitcoload323\infrastructure\persistence\data\migrations\20211114050558_initial.designer.cs

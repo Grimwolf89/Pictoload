@@ -12,10 +12,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Photo\Queries\" />
     <Folder Include="SampleItem\Commands\CreateItem\" />
     <Folder Include="SampleItem\Commands\DeleteItem\" />
     <Folder Include="SampleItem\EventHandlers\" />
     <Folder Include="SampleItem\Queries\" />
+    <Folder Include="Share\Commands\DeleteItem\" />
+    <Folder Include="Share\Queries\" />
+    <Folder Include="Tags\Commands\DeleteItem\" />
+    <Folder Include="Tags\EventHandlers\" />
+    <Folder Include="Tags\Queries\" />
   </ItemGroup>
 
   <ItemGroup>

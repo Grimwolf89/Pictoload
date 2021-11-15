@@ -6,8 +6,6 @@ C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Domain\bin\D
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Domain\bin\Debug\netcoreapp3.1\Domain.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Domain\obj\Debug\netcoreapp3.1\staticwebassets\Domain.StaticWebAssets.Manifest.cache
-C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Domain\obj\Debug\netcoreapp3.1\staticwebassets\Domain.StaticWebAssets.xml
-C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Domain\obj\Debug\netcoreapp3.1\scopedcss\bundle\Domain.styles.css
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Domain\obj\Debug\netcoreapp3.1\Domain.RazorTargetAssemblyInfo.cache
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Domain\obj\Debug\netcoreapp3.1\Domain.pdb

@@ -22,10 +22,20 @@ namespace Application.Album.Handlers
 
         public async Task<int> Handle(CreateAlbumCommand request, CancellationToken cancellationToken)
         {
-            var entity = new Domain.Entities.Album();
+            var entity = new Domain.Entities.Album { 
+                AlbumTitle = request.Title,
+                ThumbnailPath = request.ThumbnailPath
+            };
 
+           /* var entity = new Domain.Entities.Album();
+            var user = new Domain.Entities.User();
+                     
             entity.AlbumTitle = request.Title;
+            entity.ThumbnailPath = request.ThumbnailPath;*/
+            
 
+            /*user.Albums.Add(entity);*/
+            
             _context.Albums.Add(entity);
 
             await _context.SaveChangesAsync(cancellationToken);

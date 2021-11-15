@@ -1,10 +1,11 @@
 ﻿using Application.Common.Interfaces;
 using Domain.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity.ModelConfiguration.Conventions;
+/*using System.Data.Entity.ModelConfiguration.Conventions;*/
 using System.Text;
 
 namespace Pictoload.Data
@@ -21,7 +22,8 @@ namespace Pictoload.Data
         public DbSet<Share> Shares { get; set; }
         public DbSet<Tag> Tags { get; set; }
         public DbSet<TagPhoto> TagPhotos { get; set; }
-       /* public DbSet<User> Users { get; set; }*/
+        public DbSet<User> Users { get; set; }
+
 
 
 

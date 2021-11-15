@@ -9,6 +9,10 @@ namespace Domain.Entities
     {
         public int Id { get; set; }
 
-        public ICollection<Photo> Photos { get; set; }
+        public int PhotoId { get; set; }
+
+        public int TagId { get; set; }
+
+        /*public ICollection<Photo> Photos { get; set; }*/
     }
 }

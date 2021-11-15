@@ -9,5 +9,7 @@ namespace Application.DataAccess
     {
         private List<Domain.Entities.Album> albums = new List<Domain.Entities.Album>();
 
+        
+
     }
 }

@@ -409,7 +409,6 @@ C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\ob
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\WebUI.MvcApplicationPartsAssemblyInfo.cs
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\staticwebassets\WebUI.StaticWebAssets.Manifest.cache
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\staticwebassets\WebUI.StaticWebAssets.xml
-C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebUI.styles.css
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\WebUI.TagHelpers.input.cache
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\WebUI.TagHelpers.output.cache
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\WebUI.RazorCoreGenerate.cache
@@ -449,12 +448,6 @@ C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bi
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.Azure.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\MediatR.dll
-C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
-C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\EntityFramework.dll
-C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\System.CodeDom.dll
-C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
-C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\AccessDenied.cshtml.g.cs
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
@@ -495,3 +488,6 @@ C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\ob
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\Razor\Pages\Userdashboard\Index.cshtml.g.cs
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Infrastructure.StaticWebAssets.xml
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\Razor\Pages\Userdashboard\ImageUpload.cshtml.g.cs
