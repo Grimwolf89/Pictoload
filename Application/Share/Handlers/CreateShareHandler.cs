@@ -14,25 +14,26 @@ namespace Application.Share.Handlers
         {
             _context = context;
         }
-/*
-        public async Task<int> Handle(CreateShareCommand request, CancellationToken cancellationToken)*/
-       /* {*/
-public Task<int> Handle(CreateShareCommand request, CancellationToken cancellationToken)
+
+        public async Task<int> Handle(CreateShareCommand request, CancellationToken cancellationToken)
         {
-            throw new System.NotImplementedException();
+
+
+            var entity = new Domain.Entities.Share
+            {
+                UserId = request.UserId,
+                AlbumId = request.AlbumId
+                /*UserId = request.UserId,
+                AlbumId = request.AlbumId*/ 
+            };
+
+
+            _context.Shares.Add(entity);
+            await _context.SaveChangesAsync(cancellationToken);
+
+            return entity.Id;
+
         }
-        /* var entity = new Domain.Entities.Share
-{
-    UserId = request.UserId,
-    AlbumId = request.AlbumId,
-};*/
-
-        /*
-        _context.Shares.Add(entity);
-        await _context.SaveChangesAsync(cancellationToken);
-
-        return entity.Id;*/
-
     }
 }
 

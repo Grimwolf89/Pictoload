@@ -16,7 +16,9 @@ namespace Application.Common.Interfaces
         public DbSet<Domain.Entities.Share> Shares { get; set; }
         public DbSet<Tag> Tags { get; set; }
         public DbSet<TagPhoto> TagPhotos { get; set; }
-      /*  public DbSet<User> Users { get; set; }*/
+        public DbSet<User> Users { get; set; }
+        public DbSet<PhotoAlbum> PhotoAlbums { get; set; }
+        public DbSet<UserAlbums> UserAlbums { get; set; }
 
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
 

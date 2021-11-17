@@ -12,6 +12,7 @@ using Application.Album.Commands.CreateAlbum;
 using Application.Tags.Commands.CreateTag;
 using Microsoft.AspNetCore.Identity;
 using WebUI.Areas.Identity.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Pictoload.Pages
 {
@@ -30,9 +31,11 @@ namespace Pictoload.Pages
         public List<Domain.Entities.Album> AlbumsFromDb { get; set; }
 
         [BindProperty]
-        public string UserIdx { get; set; }
-        [BindProperty]
+        public string userId { get; set; }
+        
         public int albumId { get; set; }
+
+        public IList<Domain.Entities.Album> Album { get; set; }
 
         /* public Album Album = new Album
          {
@@ -49,27 +52,35 @@ namespace Pictoload.Pages
             _signInManager = signInManager;
             _userManager = userManager;
         }
-
+        public Domain.Entities.Share Share { get; set; }
         public async Task OnGetAsync()
         {
            /* UserIdx = _signInManager.UserManager.GetUserId(User).ToString();*/
-            albumId = 10;
+            albumId = 5;
+           /* userId = _userManager.GetUserId(User).ToString();*/
+            _logger.LogDebug(userId);
+            
             /*AlbumsFromDb = await _mediator.Send(new Application.Album.Queries.GetAlbumListQuery());*/
+            Album = await _context.Albums.ToListAsync();
+           /* Share.AlbumId = albumId;
+            Share.UserId = userId;*/
         }
 
         [BindProperty]
         public Domain.Entities.Tag TagToAdd { get; set; }
-        [BindProperty]
-        public Domain.Entities.Album Album { get; set; }
+       
+       /* [BindProperty]*/
+        /*public Domain.Entities.Album Album { get; set; }*/
 
 
 
 
         public async Task<IActionResult> OnPostAsync()
         {
-            /* await _mediator.Send(new Application.Share.Commands.CreateShare.CreateShareCommand() { AlbumId = albumId, *//*UserId = UserIdx*//* });*/
-            /* await _mediator.Send(new Application.Album.Commands.CreateAlbum.CreateAlbumCommand() { Title = Album.AlbumTitle, ThumbnailPath = Album.ThumbnailPath });*/
-            await _mediator.Send(new Application.Tags.Commands.CreateTag.CreateTagCommand() { TagTitle = TagToAdd.Title }); //Creat net tag command
+            userId = _userManager.GetUserId(User).ToString();
+            await _mediator.Send(new Application.Share.Commands.CreateShare.CreateShareCommand() { UserId = userId, AlbumId = 5 });
+            /* await _mediator.Send(new Application.Album.Commands.CreateAlbum.CreateAlbumCommand() { Title = Album.AlbumTitle, ThumbnailPath = Album.ThumbnailPath });
+             await _mediator.Send(new Application.Tags.Commands.CreateTag.CreateTagCommand() { TagTitle = TagToAdd.Title }); //Creat net tag command*/
             return RedirectToPage("Index");
         }
 

@@ -6,37 +6,51 @@
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<h1>@Model.userId</h1>
-<h1>Index</h1>
-<form method="post" enctype="multipart/form-data">
-    <input type="file" asp-for="Upload" />
-    <input type="submit" />
-</form>
-@* <p>
-    <a asp-page="Create">Create New</a>
-</p> *@
-@*<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Album[0].AlbumTitle)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.Album) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.AlbumTitle)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
+<div class="mb-lg-6 mt-lg-6 ">
+    <h3>Upload images</h3>
+    <form class="form-group input-group-text " method="post" enctype="multipart/form-data">
+    <input class="" type="file" asp-for="Upload" />
+    <input  type="submit" />
+    </form>
+</div>
+
+
+<div>
+<h3>Your albums</h3>
+<div class="d-inline-flex align-content-center" width=100%>    
+@foreach (var item in Model.UserAlbums) {
+    @*<ul>
+        <li>@item.AlbumTitle</li>
+        <li>@item.ThumbnailPath</li>
+    </ul>*@
+    <div class="card m-1 text-center" style="width: 15rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">@item.AlbumTitle</h5>
+    @*<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>*@
+    <a href="#" class="btn btn-link">View Photos</a>
+  </div>
+</div>
 }
-    </tbody>
-</table>
-*@
+</div>
+</div>
+<div>
+<h3>Albums shared with me</h3>
+<div class="d-inline-flex align-content-center" width=100%>    
+@foreach (var item in Model.SharedAlbums) {
+    @*<ul>
+        <li>@item.AlbumTitle</li>
+        <li>@item.ThumbnailPath</li>
+    </ul>*@
+    <div class="card m-1 text-center" style="width: 15rem;">
+  <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">@item.AlbumTitle</h5>
+    @*<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>*@
+    <a href="#" class="btn btn-link">View Photos</a>
+  </div>
+</div>
+}
+</div>
+</div>
+

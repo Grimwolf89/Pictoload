@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Http;
 using System.IO;
 using Microsoft.AspNetCore.Identity;
 using WebUI.Areas.Identity.Data;
+using MediatR;
 
 namespace WebUI.Pages.Userdashboard
 {
@@ -19,6 +20,7 @@ namespace WebUI.Pages.Userdashboard
     {
         private readonly ApplicationDbContext _context;
         private IHostingEnvironment _environment;
+        readonly IMediator _mediator;
 
 
         private readonly UserManager<IdentityUser> _userManager;
@@ -27,7 +29,7 @@ namespace WebUI.Pages.Userdashboard
         public string Username { get; set; }
 
 
-        /* public UserManager<User> _userManager { get; }*/
+       
 
         [BindProperty]
         public IFormFile Upload { get; set; }
@@ -37,15 +39,18 @@ namespace WebUI.Pages.Userdashboard
         [BindProperty]
         public string userx { get; private set; }
 
-        public IndexModel(ApplicationDbContext context, IHostingEnvironment environment, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager)
+        public IndexModel(ApplicationDbContext context, IHostingEnvironment environment, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, IMediator mediator)
         {
             _context = context;
             _environment = environment;
             _userManager = userManager;
             _signInManager = signInManager;
+            _mediator = mediator;
         }
 
         public IList<Album> Album { get; set; }
+        public IList<Album> UserAlbums { get; set; }
+        public IList<Album> SharedAlbums { get; set; }
        
 
         
@@ -56,12 +61,17 @@ namespace WebUI.Pages.Userdashboard
 
             userId = User.Identity.Name;
             userx = _signInManager.UserManager.GetUserId(User);
-            Album = await _context.Albums.ToListAsync();         
+            /*SharedAlbums = await _mediator.Send(new Application.Album.Queries.GetSharedAlbumsList.GetSharedAlbumListQuery() { UserId = userx });*/
+            SharedAlbums = await _mediator.Send(new Application.Album.Queries.GetSharedAlbumsList.GetSharedAlbumListQuery() { UserId = userx });
+            UserAlbums = await _mediator.Send(new Application.Album.Queries.GetUserAlbumsList.GetUserAlbumListQuery() { UserId = userx });
             
+            /* Album = await _context.Albums.ToListAsync();   */
+            /* await _mediator.Send(new Application.Album.Commands.CreateAlbum.CreateAlbumCommand() { Title = Album.AlbumTitle, ThumbnailPath = Album.ThumbnailPath });
+             await _mediator.Send(new Application.Tags.Commands.CreateTag.CreateTagCommand() { TagTitle = TagToAdd.Title }); //Creat net tag command*/
         }
 
 
-        
+
         public async Task<IActionResult> OnPostAsync()
         {
 

@@ -22,7 +22,7 @@ namespace WebUI.Pages.Userdashboard
         public string FileName { get; set; }
         public string ImagePath { get; set; }
 
-        public List<Domain.Entities.Album> AlbumsList { get; set; }
+       /* public List<Domain.Entities.Album> AlbumsList { get; set; }*/
 
         //Bring in a list of existing albums to list on the page
         //If there are no albums in the list, only offer option on page to create a new album
@@ -41,7 +41,7 @@ namespace WebUI.Pages.Userdashboard
         {
             ImagePath = $"/Images/Temp/{FileName}";
 
-            AlbumsList = await _mediator.Send(new Application.Album.Queries.GetAlbumListQuery());
+           /* AlbumsList = await _mediator.Send(new Application.Album.Queries.GetAlbumListQuery());*/
         }
     }
 }

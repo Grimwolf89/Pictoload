@@ -14,7 +14,9 @@ namespace Domain.Entities
 
          public string Lastname { get; set; }*/
 
-        public ICollection<Album> Albums { get; set; }
+        /*public ICollection<Album> Albums { get; set; }*/
+
+        public ICollection<Photo> Photos { get; set; }
         public ICollection<Share> Shares { get; set; }
 
 

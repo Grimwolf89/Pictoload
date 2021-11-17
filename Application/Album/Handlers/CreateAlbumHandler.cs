@@ -13,8 +13,6 @@ namespace Application.Album.Handlers
     {
         private readonly IApplicationDbContext _context;
 
-       
-
         public CreateAlbumHandler(IApplicationDbContext context)
         {
             _context = context;

@@ -4,6 +4,9 @@
 @{
     ViewData["Title"] = "Home page";
 }
+
+<h1>@Model.userId</h1>
+
 @*@inject MediatR.IMediator _mediator*@
 @*<div class="text-center">
     <h1 class="display-4">CMPG Project 2</h1>
@@ -24,7 +27,7 @@
 
 <div>
     <form method="post" >
-        <input type="text" asp-for="TagToAdd.Title" />
+       @* <input type="text" asp-for="TagToAdd.Title" />*@
         @*<input type="text" asp-for="albumId" />*@
        @* <input type="text" asp-for="Album.ThumbnailPath" />*@
         <button type="submit">Post</button>

@@ -32,12 +32,7 @@ namespace Infrastructure.Migrations
                     b.Property<string>("ThumbnailPath")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("UserId")
-                        .HasColumnType("nvarchar(450)");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("UserId");
 
                     b.ToTable("Albums");
                 });
@@ -48,9 +43,6 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int?>("AlbumId")
-                        .HasColumnType("int");
 
                     b.Property<string>("CapturedBy")
                         .HasColumnType("nvarchar(max)");
@@ -64,11 +56,36 @@ namespace Infrastructure.Migrations
                     b.Property<string>("ImagePath")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Photos");
+                });
+
+            modelBuilder.Entity("Domain.Entities.PhotoAlbum", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("AlbumId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PhotoId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("AlbumId");
 
-                    b.ToTable("Photos");
+                    b.HasIndex("PhotoId");
+
+                    b.ToTable("PhotoAlbums");
                 });
 
             modelBuilder.Entity("Domain.Entities.Share", b =>
@@ -128,6 +145,28 @@ namespace Infrastructure.Migrations
                     b.HasIndex("TagId");
 
                     b.ToTable("TagPhotos");
+                });
+
+            modelBuilder.Entity("Domain.Entities.UserAlbums", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("AlbumId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AlbumId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("UserAlbums");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -343,18 +382,26 @@ namespace Infrastructure.Migrations
                     b.HasDiscriminator().HasValue("User");
                 });
 
-            modelBuilder.Entity("Domain.Entities.Album", b =>
+            modelBuilder.Entity("Domain.Entities.Photo", b =>
                 {
                     b.HasOne("Domain.Entities.User", null)
-                        .WithMany("Albums")
+                        .WithMany("Photos")
                         .HasForeignKey("UserId");
                 });
 
-            modelBuilder.Entity("Domain.Entities.Photo", b =>
+            modelBuilder.Entity("Domain.Entities.PhotoAlbum", b =>
                 {
-                    b.HasOne("Domain.Entities.Album", null)
-                        .WithMany("Photos")
-                        .HasForeignKey("AlbumId");
+                    b.HasOne("Domain.Entities.Album", "Album")
+                        .WithMany()
+                        .HasForeignKey("AlbumId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.Photo", "Photo")
+                        .WithMany()
+                        .HasForeignKey("PhotoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Domain.Entities.Share", b =>
@@ -383,6 +430,19 @@ namespace Infrastructure.Migrations
                         .HasForeignKey("TagId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Domain.Entities.UserAlbums", b =>
+                {
+                    b.HasOne("Domain.Entities.Album", "Album")
+                        .WithMany()
+                        .HasForeignKey("AlbumId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
