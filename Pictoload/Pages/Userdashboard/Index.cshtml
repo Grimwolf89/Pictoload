@@ -16,40 +16,73 @@
 
 
 <div>
-<h3>Your albums</h3>
-<div class="d-inline-flex align-content-center" width=100%>    
-@foreach (var item in Model.UserAlbums) {
-    @*<ul>
-        <li>@item.AlbumTitle</li>
-        <li>@item.ThumbnailPath</li>
-    </ul>*@
+<h3>My Photos</h3>
+<div class="align-content-center" width=100%>    
+@foreach (var item in Model.userPhotos) {
     <div class="card m-1 text-center" style="width: 15rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">@item.AlbumTitle</h5>
-    @*<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>*@
-    <a href="#" class="btn btn-link">View Photos</a>
-  </div>
-</div>
+        <img class="card-img-top" src="@item.ImagePath" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">@item.Name</h5>
+                <p class="card-text">Taken by: @item.CapturedBy</p>
+                <p class="card-text">Location: @item.Geolocation</p>
+                <p class="card-text">Date Captured: @item.DateCaptured.Day/@item.DateCaptured.Month/@item.DateCaptured.Year </p>
+                
+            <a href="#" class="btn btn-link">Details</a>
+            <a asp-page="./UpdatePhotoData" asp-route-id="@item.Id" class="btn btn-info">Edit Metadata</a>
+            <a asp-page="./DeleteImage" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+        </div>
+    </div>
 }
 </div>
+</div>
+
+<div>
+<h3>My albums</h3>
+<div class="d-inline-flex align-content-center" width=100%>    
+@foreach (var item in Model.UserAlbums) {
+    
+            if (item != null)
+            {
+                   <div class="card m-1 text-center" style="width: 15rem;">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">@item.AlbumTitle</h5>
+                    @*<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>*@
+                    <a href="#" class="btn btn-link">View</a>
+                    <a asp-page="./DeleteAlbum" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                 </div>
+                </div>
+            }
+            else
+            {              
+                <p class="mr-2">No Albums on my account --> </p>
+                <a href="#" >Create Album</a>
+            }
+}
+    </div>
 </div>
 <div>
 <h3>Albums shared with me</h3>
 <div class="d-inline-flex align-content-center" width=100%>    
 @foreach (var item in Model.SharedAlbums) {
-    @*<ul>
-        <li>@item.AlbumTitle</li>
-        <li>@item.ThumbnailPath</li>
-    </ul>*@
-    <div class="card m-1 text-center" style="width: 15rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">@item.AlbumTitle</h5>
-    @*<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>*@
-    <a href="#" class="btn btn-link">View Photos</a>
-  </div>
-</div>
+    
+            if (item != null)
+            {
+                   <div class="card m-1 text-center" style="width: 15rem;">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">@item.AlbumTitle</h5>
+                    @*<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>*@
+                    <a href="#" class="btn btn-link">View</a>
+                    <a asp-page="./DeleteAlbum" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                 </div>
+                </div>
+            }
+            else
+            {              
+                <p class="mr-2">No Albums on my account --> </p>
+                <a href="#" >Create Album</a>
+            }
 }
 </div>
 </div>

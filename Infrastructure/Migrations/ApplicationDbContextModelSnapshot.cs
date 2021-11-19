@@ -56,6 +56,9 @@ namespace Infrastructure.Migrations
                     b.Property<string>("ImagePath")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("UserId")
                         .HasColumnType("nvarchar(450)");
 
@@ -384,7 +387,7 @@ namespace Infrastructure.Migrations
 
             modelBuilder.Entity("Domain.Entities.Photo", b =>
                 {
-                    b.HasOne("Domain.Entities.User", null)
+                    b.HasOne("Domain.Entities.User", "User")
                         .WithMany("Photos")
                         .HasForeignKey("UserId");
                 });

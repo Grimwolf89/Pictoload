@@ -491,3 +491,14 @@ C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\ob
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\Razor\Pages\Userdashboard\Index.cshtml.g.cs
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Infrastructure.StaticWebAssets.xml
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\Razor\Pages\Userdashboard\ImageUpload.cshtml.g.cs
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Azure.Storage.Blobs.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Azure.Storage.Common.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Microsoft.WindowsAzure.Storage.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\Razor\Pages\Userdashboard\DeleteAlbum.cshtml.g.cs
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\Razor\Pages\Userdashboard\DeleteImage.cshtml.g.cs
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\obj\Debug\netcoreapp3.1\Razor\Pages\Userdashboard\UpdatePhotoData.cshtml.g.cs

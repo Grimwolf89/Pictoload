@@ -46,6 +46,8 @@
           "Microsoft.EntityFrameworkCore.Tools": "3.1.21",
           "Microsoft.Extensions.Configuration.AzureKeyVault": "3.1.20",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.5",
+          "System.Drawing.Common": "6.0.0",
+          "WindowsAzure.Storage": "9.3.3",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -312,7 +314,7 @@
           "WebUI.dll": {}
         }
       },
-      "Azure.Core/1.15.0": {
+      "Azure.Core/1.19.0": {
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
           "System.Buffers": "4.5.1",
@@ -326,8 +328,8 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/Azure.Core.dll": {
-            "assemblyVersion": "1.15.0.0",
-            "fileVersion": "1.1500.21.30304"
+            "assemblyVersion": "1.19.0.0",
+            "fileVersion": "1.1900.21.45105"
           }
         },
         "compile": {
@@ -336,7 +338,7 @@
       },
       "Azure.Extensions.AspNetCore.Configuration.Secrets/1.2.1": {
         "dependencies": {
-          "Azure.Core": "1.15.0",
+          "Azure.Core": "1.19.0",
           "Azure.Security.KeyVault.Secrets": "4.2.0",
           "Microsoft.Extensions.Configuration": "3.1.21"
         },
@@ -352,7 +354,7 @@
       },
       "Azure.Identity/1.2.2": {
         "dependencies": {
-          "Azure.Core": "1.15.0",
+          "Azure.Core": "1.19.0",
           "Microsoft.Identity.Client": "4.16.1",
           "Microsoft.Identity.Client.Extensions.Msal": "2.12.0",
           "System.Memory": "4.5.4",
@@ -372,7 +374,7 @@
       },
       "Azure.Security.KeyVault.Secrets/4.2.0": {
         "dependencies": {
-          "Azure.Core": "1.15.0",
+          "Azure.Core": "1.19.0",
           "System.Memory": "4.5.4",
           "System.Text.Json": "4.7.2",
           "System.Threading.Tasks.Extensions": "4.5.3"
@@ -385,6 +387,35 @@
         },
         "compile": {
           "lib/netstandard2.0/Azure.Security.KeyVault.Secrets.dll": {}
+        }
+      },
+      "Azure.Storage.Blobs/12.10.0": {
+        "dependencies": {
+          "Azure.Storage.Common": "12.9.0",
+          "System.Text.Json": "4.7.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Storage.Blobs.dll": {
+            "assemblyVersion": "12.10.0.0",
+            "fileVersion": "12.1000.21.45803"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.Storage.Blobs.dll": {}
+        }
+      },
+      "Azure.Storage.Common/12.9.0": {
+        "dependencies": {
+          "Azure.Core": "1.19.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Storage.Common.dll": {
+            "assemblyVersion": "12.9.0.0",
+            "fileVersion": "12.900.21.45803"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Azure.Storage.Common.dll": {}
         }
       },
       "MediatR/9.0.0": {
@@ -1579,6 +1610,25 @@
           "System.Security.Principal.Windows": "4.5.0"
         }
       },
+      "Microsoft.Win32.SystemEvents/6.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Win32.SystemEvents.dll": {}
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.2",
@@ -2024,6 +2074,34 @@
           "Microsoft.NETCore.Platforms": "2.1.2",
           "Microsoft.NETCore.Targets": "1.1.3",
           "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Drawing.Common/6.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "6.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/System.Drawing.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.1/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          },
+          "runtimes/win/lib/netcoreapp3.1/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/System.Drawing.Common.dll": {}
         }
       },
       "System.Globalization/4.3.0": {
@@ -2750,8 +2828,24 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "WindowsAzure.Storage/9.3.3": {
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {
+            "assemblyVersion": "9.3.2.0",
+            "fileVersion": "9.3.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
+        }
+      },
       "Application/1.0.0": {
         "dependencies": {
+          "Azure.Storage.Blobs": "12.10.0",
           "Domain": "1.0.0",
           "MediatR": "9.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.21",
@@ -4348,12 +4442,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Azure.Core/1.15.0": {
+    "Azure.Core/1.19.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WJzKg22PtGvjAfB+yaRX/LC9ItiXYbNzgXj3DGKQYOdu2cBkijQ4ZlWi4poI0AnI61GOsATHlNS/9GgdG6w6FQ==",
-      "path": "azure.core/1.15.0",
-      "hashPath": "azure.core.1.15.0.nupkg.sha512"
+      "sha512": "sha512-lcDjG635DPE4fU5tqSueVMmzrx0QrIfPuY0+y6evHN5GanQ0GB+/4nuMHMmoNPwEow6OUPkJu4cZQxfHJQXPdA==",
+      "path": "azure.core/1.19.0",
+      "hashPath": "azure.core.1.19.0.nupkg.sha512"
     },
     "Azure.Extensions.AspNetCore.Configuration.Secrets/1.2.1": {
       "type": "package",
@@ -4375,6 +4469,20 @@
       "sha512": "sha512-ujVMKVzEtVNQom5A0iEXSDovNGoSidV0RO5QlOBFfcIZlXwFnBmO5OhOfS4D/F1gbMNCCFS3re39qd/Bgh6+QQ==",
       "path": "azure.security.keyvault.secrets/4.2.0",
       "hashPath": "azure.security.keyvault.secrets.4.2.0.nupkg.sha512"
+    },
+    "Azure.Storage.Blobs/12.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yaijs9DPfn34C/X4TX+0TAxANEhuKSrFE650gkF9g1pz/nQljv86zOOtDwNwD5UsAY5LyrOiCASGo2dhuIxvdg==",
+      "path": "azure.storage.blobs/12.10.0",
+      "hashPath": "azure.storage.blobs.12.10.0.nupkg.sha512"
+    },
+    "Azure.Storage.Common/12.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GuoigTmzz9HrCGdcdu7LyjD4pDr2XPt72LlWWTDyno+nYrjyuNwpwRFBvK/brxJvQFRHofQcBskf8vOxVxnI8g==",
+      "path": "azure.storage.common/12.9.0",
+      "hashPath": "azure.storage.common.12.9.0.nupkg.sha512"
     },
     "MediatR/9.0.0": {
       "type": "package",
@@ -4901,6 +5009,13 @@
       "path": "microsoft.win32.registry/4.5.0",
       "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
     },
+    "Microsoft.Win32.SystemEvents/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hqTM5628jSsQiv+HGpiq3WKBl2c8v1KZfby2J6Pr7pEPlK9waPdgEO6b8A/+/xn/yZ9ulv8HuqK71ONy2tg67A==",
+      "path": "microsoft.win32.systemevents/6.0.0",
+      "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
+    },
     "NETStandard.Library/1.6.1": {
       "type": "package",
       "serviceable": true,
@@ -5229,6 +5344,13 @@
       "sha512": "sha512-rswfv0f/Cqkh78rA5S8eN8Neocz234+emGCtTF3lxPY96F+mmmUen6tbn0glN6PMvlKQb9bPAY5e9u7fgPTkKw==",
       "path": "system.diagnostics.tracing/4.3.0",
       "hashPath": "system.diagnostics.tracing.4.3.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NfuoKUiP2nUWwKZN6twGqXioIe1zVD0RIj2t976A+czLHr2nY454RwwXs6JU9Htc6mwqL6Dn/nEL3dpVf2jOhg==",
+      "path": "system.drawing.common/6.0.0",
+      "hashPath": "system.drawing.common.6.0.0.nupkg.sha512"
     },
     "System.Globalization/4.3.0": {
       "type": "package",
@@ -5712,6 +5834,13 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "WindowsAzure.Storage/9.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VUV8j6dzkU/7vDgk5k+ob5g7nnch2fNByr0p9aOxMGFGk+tAnTehrZ4qnClF04CVozP1GNN2zrnbsxCmr+iZBg==",
+      "path": "windowsazure.storage/9.3.3",
+      "hashPath": "windowsazure.storage.9.3.3.nupkg.sha512"
     },
     "Application/1.0.0": {
       "type": "project",

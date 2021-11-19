@@ -2,6 +2,7 @@
 using Application.Tags.Commands.CreateTag;
 using Domain.Entities;
 using MediatR;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -18,22 +19,33 @@ namespace Application.Tags.EventHandlers
 
         public async Task<int> Handle(CreateTagCommand request, CancellationToken cancellationToken)
         {
-            var tag = new Domain.Entities.Tag { Title = request.TagTitle };
+            //Check if tag is already in db
+            var entityExists = _context.Tags.Where(t => t.Title == request.Title).FirstOrDefault();
 
-            var x = _context.Tags.Add(tag);
+            if (entityExists == null)
+            {
+                //Add the tag if not in db
+                var entity = new Domain.Entities.Tag { Title = request.Title };
+                _context.Tags.Add(entity);
+
+                await _context.SaveChangesAsync(cancellationToken);
+
+                return entity.Id;
+            }
+            else
+            {
+               return entityExists.Id;
+            }
             
-            await _context.SaveChangesAsync(cancellationToken);
+            
 
-            return tag.Id;
+           
 
-           /* var entity = new Domain.Entities.Tag();
-            entity.Title = request.TagTitle;
+            
 
-            _context.Tags.Add(entity);
+            
 
-            await _context.SaveChangesAsync(cancellationToken);
-
-            return entity.Id;*/
+           
 
             
         }

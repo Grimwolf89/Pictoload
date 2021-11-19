@@ -1,5 +1,6 @@
 using Application;
 using Application.Common.Interfaces;
+using Azure.Storage.Blobs;
 using Infrastructure.Persistence.Data;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
@@ -18,6 +19,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebUI.Areas.Identity.Data;
+
 using IApplicationDbContext = Application.Common.Interfaces.IApplicationDbContext;
 
 namespace Pictoload
@@ -44,6 +46,8 @@ namespace Pictoload
             services.AddRazorPages();
             services.AddMediatR(typeof(ApplicationLibraryMediatREntrypoint).Assembly);
             services.AddScoped<IApplicationDbContext, ApplicationDbContext>();
+            services.AddSingleton(x => new BlobServiceClient(Configuration.GetValue<string>("AzureBlobStorageConnectionString")));
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

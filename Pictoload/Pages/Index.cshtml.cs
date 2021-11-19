@@ -28,6 +28,7 @@ namespace Pictoload.Pages
 
         public Application.Album.Commands.CreateAlbum.CreateAlbumCommand AlbumAdded { get; set; }
 
+        public int MyProperty { get; set; }
         public List<Domain.Entities.Album> AlbumsFromDb { get; set; }
 
         [BindProperty]
@@ -36,6 +37,7 @@ namespace Pictoload.Pages
         public int albumId { get; set; }
 
         public IList<Domain.Entities.Album> Album { get; set; }
+
 
         /* public Album Album = new Album
          {
@@ -62,8 +64,13 @@ namespace Pictoload.Pages
             
             /*AlbumsFromDb = await _mediator.Send(new Application.Album.Queries.GetAlbumListQuery());*/
             Album = await _context.Albums.ToListAsync();
-           /* Share.AlbumId = albumId;
-            Share.UserId = userId;*/
+            /* Share.AlbumId = albumId;
+             Share.UserId = userId;*/
+
+           
+            
+            
+
         }
 
         [BindProperty]
@@ -78,7 +85,7 @@ namespace Pictoload.Pages
         public async Task<IActionResult> OnPostAsync()
         {
             userId = _userManager.GetUserId(User).ToString();
-            await _mediator.Send(new Application.Share.Commands.CreateShare.CreateShareCommand() { UserId = userId, AlbumId = 5 });
+           /* await _mediator.Send(new Application.Share.Commands.CreateShare.CreateShareCommand() { UserId = userId, AlbumId = 5 });*/
             /* await _mediator.Send(new Application.Album.Commands.CreateAlbum.CreateAlbumCommand() { Title = Album.AlbumTitle, ThumbnailPath = Album.ThumbnailPath });
              await _mediator.Send(new Application.Tags.Commands.CreateTag.CreateTagCommand() { TagTitle = TagToAdd.Title }); //Creat net tag command*/
             return RedirectToPage("Index");

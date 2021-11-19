@@ -5,8 +5,8 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>Pictoload</ActiveDebugProfile>
-    <_SelectedScaffolderID>IdentityScaffolder</_SelectedScaffolderID>
-    <_SelectedScaffolderCategoryPath>root/Identity</_SelectedScaffolderCategoryPath>
+    <_SelectedScaffolderID>ModelBasedRazorPageScaffolder</_SelectedScaffolderID>
+    <_SelectedScaffolderCategoryPath>root/Common/RazorPage</_SelectedScaffolderCategoryPath>
     <WebStackScaffolding_ViewDialogWidth>800</WebStackScaffolding_ViewDialogWidth>
     <NameOfLastUsedPublishProfile>C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Pictoload\Properties\PublishProfiles\Pictoload - Zip Deploy.pubxml</NameOfLastUsedPublishProfile>
     <WebStackScaffolding_LayoutPageFile>~/Pages/Shared/_Layout.cshtml</WebStackScaffolding_LayoutPageFile>

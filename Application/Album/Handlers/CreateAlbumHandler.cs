@@ -25,14 +25,7 @@ namespace Application.Album.Handlers
                 ThumbnailPath = request.ThumbnailPath
             };
 
-           /* var entity = new Domain.Entities.Album();
-            var user = new Domain.Entities.User();
-                     
-            entity.AlbumTitle = request.Title;
-            entity.ThumbnailPath = request.ThumbnailPath;*/
-            
-
-            /*user.Albums.Add(entity);*/
+           
             
             _context.Albums.Add(entity);
 

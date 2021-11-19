@@ -1,0 +1,64 @@
+﻿@page
+@model WebUI.Pages.Userdashboard.UpdatePhotoDataModel
+
+@{
+    ViewData["Title"] = "UpdatePhotoData";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>UpdatePhotoData</h1>
+
+<h4>Photo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <img src="@Model.Photo.ImagePath" alt="..." height=200/>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Photo.Id" />
+            <div class="form-group">
+                <label asp-for="Photo.Name" class="control-label"></label>
+                <input asp-for="Photo.Name" class="form-control" />
+                <span asp-validation-for="Photo.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Photo.Geolocation" class="control-label"></label>
+                <input asp-for="Photo.Geolocation" class="form-control" />
+                <span asp-validation-for="Photo.Geolocation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Photo.DateCaptured" class="control-label"></label>
+                <input asp-for="Photo.DateCaptured" class="form-control" />
+                <span asp-validation-for="Photo.DateCaptured" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Photo.CapturedBy" class="control-label"></label>
+                <input asp-for="Photo.CapturedBy" class="form-control" />
+                <span asp-validation-for="Photo.CapturedBy" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="Photo.ImagePath" />
+            <input type="hidden" asp-for="Photo.UserId" />
+            @*<div class="form-group">
+                <label asp-for="Photo.ImagePath" class="control-label"></label>
+                <input asp-for="Photo.ImagePath" class="form-control" />
+                <span asp-validation-for="Photo.ImagePath" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Photo.UserId" class="control-label"></label>
+                <select asp-for="Photo.UserId" class="form-control" asp-items="ViewBag.UserId"></select>
+                <span asp-validation-for="Photo.UserId" class="text-danger"></span>
+            </div>*@
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

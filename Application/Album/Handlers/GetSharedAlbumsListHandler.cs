@@ -12,7 +12,7 @@ namespace Application.Album.Handlers
 {
     public class GetSharedAlbumsListHandler : IRequestHandler<GetSharedAlbumListQuery, IList<Domain.Entities.Album>>
     {
-        public string userId { get; set; }
+        
         public IList<Domain.Entities.Share> SharedAlbums = new List<Domain.Entities.Share>();
         public IList<Domain.Entities.Album> Albums = new List<Domain.Entities.Album>();
         private IApplicationDbContext _context;

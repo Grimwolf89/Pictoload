@@ -13,6 +13,8 @@ using System.IO;
 using Microsoft.AspNetCore.Identity;
 using WebUI.Areas.Identity.Data;
 using MediatR;
+using Microsoft.WindowsAzure.Storage;
+using Microsoft.WindowsAzure.Storage.Blob;
 
 namespace WebUI.Pages.Userdashboard
 {
@@ -23,21 +25,22 @@ namespace WebUI.Pages.Userdashboard
         readonly IMediator _mediator;
 
 
+        //Cloud Storage
+        CloudStorageAccount _storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=cmpgfiles;AccountKey=nwadM8aExocz2w/u3f0LGTwzLJCgs1O6ro1CnFuYWrepgOnBkgcT5yYhlcz5TzBVpXm1t1tIPI+oTzV18zpFOw==;EndpointSuffix=core.windows.net");
+
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
 
         public string Username { get; set; }
-
-
-       
 
         [BindProperty]
         public IFormFile Upload { get; set; }
 
         [BindProperty]
         public string userId { get; set; }
+
         [BindProperty]
-        public string userx { get; private set; }
+        public string imageFullPath { get; set; }
 
         public IndexModel(ApplicationDbContext context, IHostingEnvironment environment, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, IMediator mediator)
         {
@@ -51,23 +54,22 @@ namespace WebUI.Pages.Userdashboard
         public IList<Album> Album { get; set; }
         public IList<Album> UserAlbums { get; set; }
         public IList<Album> SharedAlbums { get; set; }
-       
+        public IList<Photo> userPhotos { get; set; }
 
-        
+       
 
 
         public async Task OnGetAsync()
         {
 
-            userId = User.Identity.Name;
-            userx = _signInManager.UserManager.GetUserId(User);
-            /*SharedAlbums = await _mediator.Send(new Application.Album.Queries.GetSharedAlbumsList.GetSharedAlbumListQuery() { UserId = userx });*/
-            SharedAlbums = await _mediator.Send(new Application.Album.Queries.GetSharedAlbumsList.GetSharedAlbumListQuery() { UserId = userx });
-            UserAlbums = await _mediator.Send(new Application.Album.Queries.GetUserAlbumsList.GetUserAlbumListQuery() { UserId = userx });
+            userId = _signInManager.UserManager.GetUserId(User);
+           
+           
+            SharedAlbums = await _mediator.Send(new Application.Album.Queries.GetSharedAlbumsList.GetSharedAlbumListQuery() { UserId = userId });
+            UserAlbums = await _mediator.Send(new Application.Album.Queries.GetUserAlbumsList.GetUserAlbumListQuery() { UserId = userId });
+            userPhotos = await _mediator.Send(new Application.Photo.Queries.GetUserPhotosList.GetUserPhotosListQuery() { UserId = userId });
             
-            /* Album = await _context.Albums.ToListAsync();   */
-            /* await _mediator.Send(new Application.Album.Commands.CreateAlbum.CreateAlbumCommand() { Title = Album.AlbumTitle, ThumbnailPath = Album.ThumbnailPath });
-             await _mediator.Send(new Application.Tags.Commands.CreateTag.CreateTagCommand() { TagTitle = TagToAdd.Title }); //Creat net tag command*/
+            
         }
 
 
@@ -75,18 +77,20 @@ namespace WebUI.Pages.Userdashboard
         public async Task<IActionResult> OnPostAsync()
         {
 
-            //Upload File to temp folder before adding metadata
-            string TempFileName = Path.GetRandomFileName();
-            string FullTempFileName = $"{TempFileName}-{Upload.FileName}";
+            // Upload Image to storage
+            CloudBlobClient cloudBlobClient = _storageAccount.CreateCloudBlobClient();
+            CloudBlobContainer cloudBlobContainer = cloudBlobClient.GetContainerReference("images");
 
-            string file = Path.Combine($"{_environment.ContentRootPath}/wwwroot/Images/Temp/{ TempFileName}-{ Upload.FileName}");
+            string ImageName = Guid.NewGuid().ToString() + "-" + Upload.FileName.ToString();
 
-            using (var fileStream = new FileStream(file, FileMode.Create))
-            {
-                await Upload.CopyToAsync(fileStream);
-            }
+            CloudBlockBlob cloudBlockBlob = cloudBlobContainer.GetBlockBlobReference(ImageName);
+            cloudBlockBlob.Properties.ContentType = Upload.ContentType;
 
-            return RedirectToPage("./ImageUpload", new { FileName = FullTempFileName });
+            await cloudBlockBlob.UploadFromStreamAsync(Upload.OpenReadStream());
+            imageFullPath = cloudBlockBlob.Uri.ToString();
+            Console.WriteLine(imageFullPath);
+                     
+            return RedirectToPage("./ImageUpload", new { FileName = imageFullPath}); ;
 
            
         }

@@ -75,6 +75,9 @@ namespace WebUI.Areas.Identity.Pages.Account
         {
             returnUrl = returnUrl ?? Url.Content("~/");
 
+            //Send user to user dashboard
+            string userDashboardUrl = "/Userdashboard";
+
             if (ModelState.IsValid)
             {
                 // This doesn't count login failures towards account lockout
@@ -83,7 +86,7 @@ namespace WebUI.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
-                    return LocalRedirect(returnUrl);
+                    return LocalRedirect(userDashboardUrl);
                 }
                 if (result.RequiresTwoFactor)
                 {

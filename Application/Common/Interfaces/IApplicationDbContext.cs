@@ -11,8 +11,8 @@ namespace Application.Common.Interfaces
 {
     public interface IApplicationDbContext 
     {
-        DbSet<Domain.Entities.Album> Albums { get; set; }
-        DbSet<Domain.Entities.Photo> Photos { get; set; }
+        public DbSet<Domain.Entities.Album> Albums { get; set; }
+        public DbSet<Domain.Entities.Photo> Photos { get; set; }
         public DbSet<Domain.Entities.Share> Shares { get; set; }
         public DbSet<Tag> Tags { get; set; }
         public DbSet<TagPhoto> TagPhotos { get; set; }
