@@ -18,7 +18,7 @@ namespace WebUI.Pages.Userdashboard
     {
         private readonly Pictoload.Data.ApplicationDbContext _context;
         readonly IMediator _mediator;
-        CloudStorageAccount _storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=cmpgfiles;AccountKey=nwadM8aExocz2w/u3f0LGTwzLJCgs1O6ro1CnFuYWrepgOnBkgcT5yYhlcz5TzBVpXm1t1tIPI+oTzV18zpFOw==;EndpointSuffix=core.windows.net");
+        CloudStorageAccount _storageAccount = CloudStorageAccount.Parse("XXX");
         public DeleteImageModel(Pictoload.Data.ApplicationDbContext context, IMediator mediator)
         {
             _context = context;
