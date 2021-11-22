@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wEN+utVP3uJQO38Nd54gnk9iI5yxEVebxqMCe8zuWHShtbL719SqF1mwCRMX3taQJpoOkfWa+uSQHWCtWZkReQ==",
+  "dgSpecHash": "SsgpkMrRXyVis6jsYZNCgzJs42uCqN2rgX7o3GIMp5EgyTgCdSy36LTv8TypCyTFrm8FZAJzv8OyHTIBz5UiFg==",
   "success": true,
   "projectFilePath": "C:\\Studies 2021\\Semester2\\ITdevelopments_323\\Project_2\\PitcoLoad323\\Pictoload\\WebUI.csproj",
   "expectedPackageFiles": [
@@ -175,7 +175,8 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Grimwolf\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
   ],
   "logs": []
 }
