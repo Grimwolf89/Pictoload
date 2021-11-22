@@ -1,0 +1,42 @@
+﻿@page
+@model WebUI.Pages.Userdashboard.AddPhotoToAlbumModel
+
+@{
+    ViewData["Title"] = "AddPhotoToAlbum";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+@foreach(var x in Model.UserAlbums)
+            {
+    if (x != null)
+    {
+        <p>@x.AlbumTitle.ToString()</p>
+    }
+    
+            }
+
+<form method="post">
+    <div>
+    
+    <select class="w-50" name="selectedAlbum" >
+        
+            @foreach(var x in Model.UserAlbums)
+            {
+                if (x != null)
+                {
+                  <option value="@x.AlbumTitle">@x.AlbumTitle</option>
+                }
+            }               
+    </select>
+    <input type="hidden" asp-for="@Model.PhotoId" value="@Model.PhotoId" name="photoId" />
+    <button type="submit">Share</button>
+</div>
+</form>
+
+<div class=mt-lg-5>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@*@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}*@
