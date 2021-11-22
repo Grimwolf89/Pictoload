@@ -3,6 +3,18 @@
     "mssql1": {
       "type": "mssql",
       "connectionId": "ConnectionStrings:DefaultConnection"
+    },
+    "secrets1": {
+      "type": "secrets",
+      "connectionId": "DefaultConnection"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:WebUIContextConnection"
+    },
+    "storage1": {
+      "type": "storage",
+      "connectionId": "AzureBlobStorageConnectionString"
     }
   }
 }
