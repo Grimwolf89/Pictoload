@@ -1,0 +1,22 @@
+﻿@page
+@model WebUI.Pages.Userdashboard.SharePhotoModel
+@{
+}
+
+
+<form method="post">
+    <div>
+    
+    <select class="w-50" name="selectedUser" >
+        
+        @foreach(var item in @Model.identityUsers)
+        {           
+            <option value="@item.UserName">@item.UserName</option>         
+        }
+        <input type="hidden" asp-for="@Model.photoId" value="@Model.photoId" name="photoId" />
+    </select>
+    
+    <button type="submit">Share</button>
+</div>
+</form>
+

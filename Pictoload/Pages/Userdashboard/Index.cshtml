@@ -6,37 +6,100 @@
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<div class="mb-lg-6 mt-lg-6 ">
-    <h3>Upload images</h3>
-    <form class="form-group input-group-text " method="post" enctype="multipart/form-data">
-    <input class="" type="file" asp-for="Upload" />
-    <input  type="submit" />
-    </form>
+<div class="container-xl border mt-5 pt-2">
+    <div class="row ">
+        <div class="col ">
+            <h5 class="display-6  mb-2 pl-2">Upload new image</h5>
+        </div>
+    </div>
+  <div class="row ">
+  <div class="col mb3 ">
+      <form class="input-group-text bg-light btn-primary " method="post" enctype="multipart/form-data">
+        <input class="form-control" type="file" asp-for="Upload" />
+         <input class=" btn btn-primary"  type="submit" value="Upload"/>
+       </form>
+    </div>
+   </div>
 </div>
 
+<div class="container-fluid pt-5">
+    
+    
+</div>
 
-<div>
-<h3>My Photos</h3>
-<div class="align-content-center" width=100%>    
+<div class=" container-xxl border pt-2">
+<div class="row ">
+        <div class="col ">
+            <h5 class="display-6  mb-2 pl-2">My image collection</h5>
+        </div>
+    </div>
+<div class="align-content-center custom-control-inline" width=100%>    
 @foreach (var item in Model.userPhotos) {
     <div class="card m-1 text-center" style="width: 15rem;">
-        <img class="card-img-top" src="@item.ImagePath" alt="Card image cap">
+        <img class="card-img-top" src="@item.ImagePath" alt="Card image cap" height=150>
         <div class="card-body">
             <h5 class="card-title">@item.Name</h5>
-                <p class="card-text">Taken by: @item.CapturedBy</p>
-                <p class="card-text">Location: @item.Geolocation</p>
-                <p class="card-text">Date Captured: @item.DateCaptured.Day/@item.DateCaptured.Month/@item.DateCaptured.Year </p>
-                
-            <a href="#" class="btn btn-link">Details</a>
-            <a asp-page="./UpdatePhotoData" asp-route-id="@item.Id" class="btn btn-info">Edit Metadata</a>
-            <a asp-page="./DeleteImage" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                <p class="card-text m-0">Taken by: @item.CapturedBy</p>
+                <p class="card-text m-0">Location: @item.Geolocation</p>
+                <p class="card-text m-0">Date Captured: @item.DateCaptured.Day/@item.DateCaptured.Month/@item.DateCaptured.Year </p>
+           <div class="align-items-center ">
+               <div class="row  ">
+                    <div class="col-sm-3"><a asp-page="./PhotoDetails" asp-route-id="@item.Id" class="btn btn-link m-0 p-1  ">View</a></div>
+                     <div class="col-sm-3"><a asp-page="./SharePhoto" asp-route-id="@item.Id" class="btn btn-link m-0 p-1 ">Share</a></div>
+                    <div class="col-sm-3"><a asp-page="./Unshare" asp-route-id="@item.Id" class="btn btn-link m-0 p-1 ">Unshare</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3"><a asp-page="./AddPhotoToAlbum" asp-route-id="@item.Id" class="btn btn-link m-0 p-1 ">Album</a></div>
+                     <div class="col-sm-3"><a asp-page="./UpdatePhotoData" asp-route-id="@item.Id" class="btn btn-link m-0 p-1 ">Edit</a></div>
+                    <div class="col-sm-3"><a asp-page="./DeleteImage" asp-route-id="@item.Id" class="btn btn-link m-0 p-1 ">Delete</a></div>
+                </div>
+           
+           </div>     
+           
         </div>
     </div>
 }
 </div>
 </div>
 
-<div>
+<div class=" container-xxl mt-5 border pt-2">
+<div class="row ">
+        <div class="col ">
+            <h5 class="display-6  mb-2 pl-2">Images Shared with me</h5>
+        </div>
+    </div>
+<div class="align-content-center custom-control-inline" width=100%>    
+@foreach (var item in Model.SharedPhotos) {
+    <div class="card m-1 text-center" style="width: 15rem;">
+        <img class="card-img-top" src="@item.ImagePath" alt="Card image cap" height=150>
+        <div class="card-body">
+            <h5 class="card-title">@item.Name</h5>
+                <p class="card-text m-0">Taken by: @item.CapturedBy</p>
+                <p class="card-text m-0">Location: @item.Geolocation</p>
+                <p class="card-text m-0">Date Captured: @item.DateCaptured.Day/@item.DateCaptured.Month/@item.DateCaptured.Year </p>
+           <div class="align-items-center ">
+               <div class="row  ">
+                    <div class="col-sm-3"><a asp-page="./PhotoDetails" asp-route-id="@item.Id" class="btn btn-link m-0 p-1  ">View</a></div>
+                     <div class="col-sm-3"><a asp-page="./SharePhoto" asp-route-id="@item.Id" class="btn btn-link m-0 p-1 ">Share</a></div>
+                    <div class="col-sm-3"><a asp-page="./Unshare" asp-route-id="@item.Id" class="btn btn-link m-0 p-1 ">Unshare</a></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3"><a asp-page="./AddPhotoToAlbum" asp-route-id="@item.Id" class="btn btn-link m-0 p-1 ">Album</a></div>
+                     <div class="col-sm-3"><a asp-page="./UpdatePhotoData" asp-route-id="@item.Id" class="btn btn-link m-0 p-1 ">Edit</a></div>
+                    <div class="col-sm-3"><a asp-page="./DeleteImage" asp-route-id="@item.Id" class="btn btn-link m-0 p-1 ">Delete</a></div>
+                </div>
+           
+           </div>     
+           
+        </div>
+    </div>
+}
+</div>
+</div>
+
+
+
+@*<div>
 <h3>My albums</h3>
 <div class="d-inline-flex align-content-center" width=100%>    
 @foreach (var item in Model.UserAlbums) {
@@ -47,21 +110,18 @@
                     <img class="card-img-top" src="..." alt="Card image cap">
                     <div class="card-body">
                     <h5 class="card-title">@item.AlbumTitle</h5>
-                    @*<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>*@
+                   
                     <a href="#" class="btn btn-link">View</a>
-                    <a asp-page="./DeleteAlbum" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                    <a href="#" class="btn btn-link">Share</a>
+                    <a asp-page="./DeleteAlbum" asp-route-id="@item.Id" class="btn btn-link">Delete</a>
                  </div>
                 </div>
             }
-            else
-            {              
-                <p class="mr-2">No Albums on my account --> </p>
-                <a href="#" >Create Album</a>
-            }
+          
 }
     </div>
-</div>
-<div>
+</div>*@
+@*<div>
 <h3>Albums shared with me</h3>
 <div class="d-inline-flex align-content-center" width=100%>    
 @foreach (var item in Model.SharedAlbums) {
@@ -72,9 +132,9 @@
                     <img class="card-img-top" src="..." alt="Card image cap">
                     <div class="card-body">
                     <h5 class="card-title">@item.AlbumTitle</h5>
-                    @*<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>*@
+                    
                     <a href="#" class="btn btn-link">View</a>
-                    <a asp-page="./DeleteAlbum" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                    <a asp-page="./DeleteAlbum" asp-route-id="@item.Id" class="btn btn-link">Delete</a>
                  </div>
                 </div>
             }
@@ -87,3 +147,4 @@
 </div>
 </div>
 
+*@

@@ -24,8 +24,8 @@ namespace Pictoload.Data
         public DbSet<TagPhoto> TagPhotos { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<PhotoAlbum> PhotoAlbums { get; set; }
-
         public DbSet<UserAlbums> UserAlbums { get; set; }
+        public DbSet<SharePhoto> SharePhotos { get; set; }
 
 
 

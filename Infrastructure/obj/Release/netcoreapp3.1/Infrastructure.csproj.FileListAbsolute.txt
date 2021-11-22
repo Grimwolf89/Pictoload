@@ -13,7 +13,10 @@ C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructu
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructure\obj\Release\netcoreapp3.1\staticwebassets\Infrastructure.StaticWebAssets.Manifest.cache
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructure\obj\Release\netcoreapp3.1\staticwebassets\Infrastructure.StaticWebAssets.xml
-C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructure\obj\Release\netcoreapp3.1\scopedcss\bundle\Infrastructure.styles.css
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.RazorTargetAssemblyInfo.cache
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.dll
 C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.pdb
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.csproj.CopyComplete
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructure\bin\Release\netcoreapp3.1\Infrastructure.runtimeconfig.json
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructure\bin\Release\netcoreapp3.1\Infrastructure.runtimeconfig.dev.json
+C:\Studies 2021\Semester2\ITdevelopments_323\Project_2\PitcoLoad323\Infrastructure\obj\Release\netcoreapp3.1\Infrastructure.genruntimeconfig.cache

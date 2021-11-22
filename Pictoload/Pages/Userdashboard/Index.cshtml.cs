@@ -24,9 +24,10 @@ namespace WebUI.Pages.Userdashboard
         private IHostingEnvironment _environment;
         readonly IMediator _mediator;
 
+       
 
         //Cloud Storage
-        CloudStorageAccount _storageAccount = CloudStorageAccount.Parse("XX");
+        CloudStorageAccount _storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=cmpgfiles;AccountKey=nwadM8aExocz2w/u3f0LGTwzLJCgs1O6ro1CnFuYWrepgOnBkgcT5yYhlcz5TzBVpXm1t1tIPI+oTzV18zpFOw==;EndpointSuffix=core.windows.net");
 
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
@@ -55,8 +56,9 @@ namespace WebUI.Pages.Userdashboard
         public IList<Album> UserAlbums { get; set; }
         public IList<Album> SharedAlbums { get; set; }
         public IList<Photo> userPhotos { get; set; }
+        public IList<Photo> SharedPhotos { get; set; }
 
-       
+
 
 
         public async Task OnGetAsync()
@@ -68,8 +70,10 @@ namespace WebUI.Pages.Userdashboard
             SharedAlbums = await _mediator.Send(new Application.Album.Queries.GetSharedAlbumsList.GetSharedAlbumListQuery() { UserId = userId });
             UserAlbums = await _mediator.Send(new Application.Album.Queries.GetUserAlbumsList.GetUserAlbumListQuery() { UserId = userId });
             userPhotos = await _mediator.Send(new Application.Photo.Queries.GetUserPhotosList.GetUserPhotosListQuery() { UserId = userId });
-            
-            
+            SharedPhotos = await _mediator.Send(new Application.Photo.Queries.GetSharedPhotoList.GetSharedPhotoListQuery() { UserId = userId});
+
+
+
         }
 
 
@@ -81,16 +85,23 @@ namespace WebUI.Pages.Userdashboard
             CloudBlobClient cloudBlobClient = _storageAccount.CreateCloudBlobClient();
             CloudBlobContainer cloudBlobContainer = cloudBlobClient.GetContainerReference("images");
 
-            string ImageName = Guid.NewGuid().ToString() + "-" + Upload.FileName.ToString();
+            if (Upload.FileName != "")
+            {
+                string ImageName = Guid.NewGuid().ToString() + "-" + Upload.FileName.ToString();
+                CloudBlockBlob cloudBlockBlob = cloudBlobContainer.GetBlockBlobReference(ImageName);
+                cloudBlockBlob.Properties.ContentType = Upload.ContentType;
 
-            CloudBlockBlob cloudBlockBlob = cloudBlobContainer.GetBlockBlobReference(ImageName);
-            cloudBlockBlob.Properties.ContentType = Upload.ContentType;
+                await cloudBlockBlob.UploadFromStreamAsync(Upload.OpenReadStream());
+                imageFullPath = cloudBlockBlob.Uri.ToString();
+                Console.WriteLine(imageFullPath);
 
-            await cloudBlockBlob.UploadFromStreamAsync(Upload.OpenReadStream());
-            imageFullPath = cloudBlockBlob.Uri.ToString();
-            Console.WriteLine(imageFullPath);
-                     
-            return RedirectToPage("./ImageUpload", new { FileName = imageFullPath}); ;
+                return RedirectToPage("./ImageUpload", new { FileName = imageFullPath }); ;
+            }
+
+            return Page();
+            
+
+            
 
            
         }

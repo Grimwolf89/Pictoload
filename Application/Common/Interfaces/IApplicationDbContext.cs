@@ -19,6 +19,7 @@ namespace Application.Common.Interfaces
         public DbSet<User> Users { get; set; }
         public DbSet<PhotoAlbum> PhotoAlbums { get; set; }
         public DbSet<UserAlbums> UserAlbums { get; set; }
+        public DbSet<SharePhoto> SharePhotos { get; set; }
 
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
 

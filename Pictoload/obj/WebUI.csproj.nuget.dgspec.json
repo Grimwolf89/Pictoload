@@ -332,11 +332,23 @@
             },
             "Azure.Identity": {
               "target": "Package",
-              "version": "[1.2.2, )"
+              "version": "[1.4.0, )"
             },
             "Azure.Security.KeyVault.Secrets": {
               "target": "Package",
               "version": "[4.2.0, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.10.0, )"
+            },
+            "Azure.Storage.Common": {
+              "target": "Package",
+              "version": "[12.9.0, )"
+            },
+            "Azure.Storage.Queues": {
+              "target": "Package",
+              "version": "[12.8.0, )"
             },
             "MediatR": {
               "target": "Package",
@@ -369,6 +381,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[3.1.21, )"
+            },
+            "Microsoft.Extensions.Azure": {
+              "target": "Package",
+              "version": "[1.1.1, )"
             },
             "Microsoft.Extensions.Configuration.AzureKeyVault": {
               "target": "Package",

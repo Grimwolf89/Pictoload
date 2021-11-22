@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20211121044724_sharefkissue1.cs" />
+    <Compile Remove="Migrations\20211121044724_sharefkissue1.Designer.cs" />
     <Compile Remove="Persistence\Data\Migrations\20211115112817_Initial.cs" />
     <Compile Remove="Persistence\Data\Migrations\20211115112817_Initial.Designer.cs" />
   </ItemGroup>

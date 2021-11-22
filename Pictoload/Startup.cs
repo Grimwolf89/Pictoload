@@ -21,6 +21,10 @@ using System.Threading.Tasks;
 using WebUI.Areas.Identity.Data;
 
 using IApplicationDbContext = Application.Common.Interfaces.IApplicationDbContext;
+using Microsoft.Extensions.Azure;
+/*using Azure.Storage.Queues;*/
+using Azure.Core.Extensions;
+using Azure.Storage.Queues;
 
 namespace Pictoload
 {
@@ -47,7 +51,37 @@ namespace Pictoload
             services.AddMediatR(typeof(ApplicationLibraryMediatREntrypoint).Assembly);
             services.AddScoped<IApplicationDbContext, ApplicationDbContext>();
             services.AddSingleton(x => new BlobServiceClient(Configuration.GetValue<string>("AzureBlobStorageConnectionString")));
-           
+           /* services.AddAzureClients(builder =>
+            {
+                builder.AddBlobServiceClient(Configuration["AzureBlobStorageConnectionString:blob"], preferMsi: true);
+                builder.AddQueueServiceClient(Configuration["AzureBlobStorageConnectionString:queue"], preferMsi: true);
+            });
+            services.AddAzureClients(builder =>
+            {
+                builder.AddBlobServiceClient(Configuration["AzureBlobStorageConnectionString:blob"], preferMsi: true);
+                builder.AddQueueServiceClient(Configuration["AzureBlobStorageConnectionString:queue"], preferMsi: true);
+            });
+            services.AddAzureClients(builder =>
+            {
+                builder.AddBlobServiceClient(Configuration["AzureBlobStorageConnectionString:blob"], preferMsi: true);
+                builder.AddQueueServiceClient(Configuration["AzureBlobStorageConnectionString:queue"], preferMsi: true);
+            });*/
+            /* services.AddAzureClients(builder =>
+             {
+                 builder.AddBlobServiceClient(Configuration["AzureBlobStorageConnectionString:blob"], preferMsi: true);
+                 builder.AddQueueServiceClient(Configuration["AzureBlobStorageConnectionString:queue"], preferMsi: true);
+             });
+             services.AddAzureClients(builder =>
+             {
+                 builder.AddBlobServiceClient(Configuration["AzureBlobStorageConnectionString:blob"], preferMsi: true);
+                 builder.AddQueueServiceClient(Configuration["AzureBlobStorageConnectionString:queue"], preferMsi: true);
+             });
+             services.AddAzureClients(builder =>
+             {
+                 builder.AddBlobServiceClient(Configuration["AzureBlobStorageConnectionString:blob"], preferMsi: true);
+                 builder.AddQueueServiceClient(Configuration["AzureBlobStorageConnectionString:queue"], preferMsi: true);
+             });*/
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -78,5 +112,30 @@ namespace Pictoload
                 endpoints.MapRazorPages();
             });
         }
+    }
+    internal static class StartupExtensions
+    {
+       /* public static IAzureClientBuilder<BlobServiceClient, BlobClientOptions> AddBlobServiceClient(this AzureClientFactoryBuilder builder, string serviceUriOrConnectionString, bool preferMsi)
+        {
+            if (preferMsi && Uri.TryCreate(serviceUriOrConnectionString, UriKind.Absolute, out Uri serviceUri))
+            {
+                return builder.AddBlobServiceClient(serviceUri);
+            }
+            else
+            {
+                return builder.AddBlobServiceClient(serviceUriOrConnectionString);
+            }
+        }*/
+       /* public static IAzureClientBuilder<QueueServiceClient, QueueClientOptions> AddQueueServiceClient(this AzureClientFactoryBuilder builder, string serviceUriOrConnectionString, bool preferMsi)
+        {
+            if (preferMsi && Uri.TryCreate(serviceUriOrConnectionString, UriKind.Absolute, out Uri serviceUri))
+            {
+                return builder.AddQueueServiceClient(serviceUri);
+            }
+            else
+            {
+                return builder.AddQueueServiceClient(serviceUriOrConnectionString);
+            }
+        }*/
     }
 }

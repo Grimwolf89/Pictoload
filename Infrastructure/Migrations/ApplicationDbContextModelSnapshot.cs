@@ -113,6 +113,28 @@ namespace Infrastructure.Migrations
                     b.ToTable("Shares");
                 });
 
+            modelBuilder.Entity("Domain.Entities.SharePhoto", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("PhotoId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PhotoId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("SharePhotos");
+                });
+
             modelBuilder.Entity("Domain.Entities.Tag", b =>
                 {
                     b.Property<int>("Id")
@@ -417,6 +439,19 @@ namespace Infrastructure.Migrations
 
                     b.HasOne("Domain.Entities.User", "User")
                         .WithMany("Shares")
+                        .HasForeignKey("UserId");
+                });
+
+            modelBuilder.Entity("Domain.Entities.SharePhoto", b =>
+                {
+                    b.HasOne("Domain.Entities.Photo", "Photo")
+                        .WithMany()
+                        .HasForeignKey("PhotoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.User", "User")
+                        .WithMany()
                         .HasForeignKey("UserId");
                 });
 

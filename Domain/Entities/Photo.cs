@@ -20,6 +20,7 @@ namespace Domain.Entities
         public User User { get; set; }
         public string UserId { get; set; }
         public ICollection<TagPhoto> TagPhoto { get; set; }
+       /* public ICollection<SharePhoto> SharePhotos { get; set; }*/
 
         /* public ICollection<Album> Albums { get; set; }*/
     }
